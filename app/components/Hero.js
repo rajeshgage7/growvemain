@@ -29,11 +29,11 @@ export default function Hero() {
 
          <h4 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 text-center max-w-4xl mx-auto leading-tight">
           One Platform to Run Your {" "}
-          <span className="text-violet-600">Entire Commerce Operations</span>
+          <span className="text-violet-600">Entire Commerce </span>Operations
         </h4>
 
         {/* Subtitle */}
-        <p className="mt-6 text-base sm:text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed ">
+        <p className="mt-6 text-base sm:text-md text-gray-500 max-w-2xl mx-auto leading-relaxed ">
           We help brands, startups, and logistics companies launch scalable
           shipping and fulfilment platforms with ready-to-integrate modules,
           courier APIs, and cloud infrastructure.

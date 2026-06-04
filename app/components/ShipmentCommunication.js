@@ -27,7 +27,7 @@ export default function ShipmentCommunication() {
       Proactive Shipment Communication
     </h2>
 
-    <p className="mt-5 text-lg text-gray-500 leading-relaxed">
+    <p className="mt-5 text-md text-gray-500 leading-relaxed">
       Stay in control of every shipment from dispatch to delivery. Growve provides real-time shipment visibility, proactive alerts, and performance insights, helping teams respond faster, reduce delivery issues, and improve customer experience
     </p>
 

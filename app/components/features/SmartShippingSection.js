@@ -75,12 +75,12 @@ export default function SmartShippingSection() {
 
         {/* Heading */}
         <div className="text-center max-w-3xl mx-auto mb-4">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
             Smart Shipping Multi-Channel{" "}
             <span className="text-violet-600">Excellence</span>
           </h2>
           <p className="mt-3 text-xl font-semibold text-gray-700">Smarter, Faster, Cheaper Shipping</p>
-          <p className="mt-4 text-lg text-gray-500 leading-relaxed">
+          <p className="mt-4 text-md text-gray-500 leading-relaxed">
             Growve&apos;s smart shipping platform brings every order, courier, and delivery update into one simple
             dashboard. Whether you sell on Amazon, Flipkart, Meesho, Shopify, WooCommerce, or your own website, Smart
             Shipping helps you save time, reduce costs, and delight customers.
@@ -170,7 +170,7 @@ export default function SmartShippingSection() {
           }}
           viewport={{ once: true }}
         >
-          <div className="w-9 h-9 rounded-xl bg-gray-100 text-gray-600 flex items-center justify-center mb-3">
+          <div className="w-9 h-9 rounded-xl bg-violet-100 text-gray-600 flex items-center justify-center mb-3">
             {feat.icon}
           </div>
 

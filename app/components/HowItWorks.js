@@ -62,12 +62,12 @@ export default function HowItWorks() {
         </div>
 
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 text-center max-w-3xl mx-auto leading-tight">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 text-center max-w-3xl mx-auto leading-tight">
           Where orders, inventory, and shipping{" "}
           <span className="text-violet-600">come together</span>
         </h2>
 
-        <p className="mt-5 text-lg text-gray-500 text-center max-w-2xl mx-auto">
+        <p className="mt-5 text-md text-gray-500 text-center max-w-2xl mx-auto">
           Growve unifies every touchpoint of your commerce operations into one
           seamless, intelligent platform — so your team can focus on growth, not
           firefighting.

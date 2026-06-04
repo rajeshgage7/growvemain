@@ -57,11 +57,11 @@ export default function AnalyticsInsightsSection() {
       <section className="py-20 lg:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
               Analytics &amp; Performance{" "}
               <span className="text-violet-600">Insights</span>
             </h2>
-            <p className="mt-5 text-lg text-gray-500 leading-relaxed">
+            <p className="mt-5 text-md text-gray-500 leading-relaxed">
               Unlock comprehensive analytics on logistics costs, courier reliability, order lifecycle, and revenue leakage
               from returns. Export reports seamlessly for GST, compliance filings or integration with your accounting tools.
             </p>

@@ -45,7 +45,7 @@ export default function BudgetManagement() {
       Intelligent Budget &amp; Cost Management
     </h2>
 
-    <p className="mt-5 text-base text-gray-500 leading-relaxed">
+    <p className="mt-5 text-md text-gray-500 leading-relaxed">
       Gain complete control over your logistics spend with intelligent cost insights. Growve helps you analyse shipping, returns, and operational expenses in detail so you can make data-driven decisions and continuously optimise profitability
     </p>
 

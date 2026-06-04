@@ -78,12 +78,12 @@ export default function PPCIntelligenceSection() {
   viewport={{ once: true }}
   className="text-center max-w-3xl mx-auto mb-6"
 >
-  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight">
+  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
     PPC Profit Analytics and{" "}
     <span className="text-violet-600">Optimization</span>
   </h2>
 
-  <p className="mt-5 text-lg text-gray-500 leading-relaxed">
+  <p className="mt-5 text-md text-gray-500 leading-relaxed">
     Stop guessing and start profiting. The Growve PPC Optimizer is a automation engine designed specifically for Sellers to convert advertising spend into measurable, sustainable business growth
   </p>
 </motion.div>
@@ -128,22 +128,19 @@ export default function PPCIntelligenceSection() {
       <motion.div
         key={feat.title}
         initial={{
-          opacity: 0,
-          x: isLeft ? -60 : 60,
-          scale: 0.96,
+       opacity: 0,
+    y: 40,
         }}
         whileInView={{
-          opacity: 1,
-          x: 0,
-          scale: 1,
+  opacity: 1,
+    y: 0,
         }}
         transition={{
-          type: "spring",
-          stiffness: 60,
-          damping: 18,
-          delay: index * 0.1,
+         duration: 0.6,
+    ease: [0.22, 1, 0.36, 1],
+    delay: index * 0.08,
         }}
-        viewport={{ once: true, margin: "-50px" }}
+        viewport={{ once: true, amount: 0.15 }}
         className="group p-6 rounded-2xl bg-white border border-gray-100 hover:border-violet-200 hover:shadow-lg hover:shadow-violet-50 transition-all duration-200"
       >
         <div className="w-10 h-10 rounded-xl bg-violet-100 text-violet-600 flex items-center justify-center mb-4 group-hover:bg-violet-600 group-hover:text-white transition-colors duration-200">

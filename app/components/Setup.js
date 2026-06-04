@@ -46,7 +46,7 @@ export default function Setup() {
       Fast and Effortless Setup
     </h2>
 
-    <p className="mt-5 text-base text-gray-500 leading-relaxed">
+    <p className="mt-5 text-md text-gray-500 leading-relaxed">
      Get started with Growve in minutes, not weeks. Our onboarding flow is designed to remove complexity, allowing teams to connect platforms, configure workflows, and go live without technical dependencies or long setup cycles
        </p>
 

@@ -25,12 +25,12 @@ export default function Integrations() {
         </div>
 
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 text-center max-w-3xl mx-auto leading-tight">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 text-center max-w-3xl mx-auto leading-tight">
           Built to connect with the{" "}
           <span className="text-violet-600">tools you already trust</span>
         </h2>
 
-        <p className="mt-5 text-lg text-gray-500 text-center max-w-2xl mx-auto">
+        <p className="mt-5 text-md text-gray-500 text-center max-w-2xl mx-auto">
           Growve plugs into your existing commerce stack — marketplaces, courier
           partners, ERPs, and payment gateways — with minimal setup and maximum
           reliability.

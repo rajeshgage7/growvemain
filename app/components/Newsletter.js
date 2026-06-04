@@ -39,11 +39,11 @@ export default function Newsletter() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight max-w-2xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-2xl mx-auto">
             Subscribe to our newsletter to get all the{" "}
             <span className="text-violet-400">updates and news</span> about growve
           </h2>
-          <p className="mt-5 text-lg text-gray-400 max-w-xl mx-auto">
+          <p className="mt-5 text-md text-gray-400 max-w-xl mx-auto">
             Drop us a line with any questions, inquiries or business proposals
           </p>
         </div>
