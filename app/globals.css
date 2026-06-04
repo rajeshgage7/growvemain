@@ -82,28 +82,28 @@ body {
   filter: blur(120px);
 }
 
-/* .gradient-blob-3 {
-  width: 500px;
-  height: 500px;
-  background: rgba(124, 58, 237, 0.25);
+.gradient-blob-3 {
+  width: 900px;
+  height: 900px;
+  background: rgba(77, 169, 227, 0.218);
   top: 20%;
-  left: -150px;
-  animation: moveRight 12s ease-in-out infinite;
-} */
-
-.gradient-blob-1 {
-  width: 500px;
-  height: 500px;
-  background: rgba(203, 53, 237, 0.25);
-  top: 20%;
-  left: -150px;
+  left: -50px;
   animation: moveRight 12s ease-in-out infinite;
 }
 
+.gradient-blob-1 {
+  width: 900px;
+  height: 900px;
+  background: rgba(218, 53, 255, 0.391);
+  top: 20%;
+  left: -150px;
+  animation: moveRight 6s ease-in-out infinite;
+}
+
 .gradient-blob-2 {
-  width: 500px;
-  height: 500px;
-  background: rgba(59, 130, 246, 0.25);
+  width: 900px;
+  height: 900px;
+  background: rgba(59, 131, 246, 0.323);
   bottom: 0;
   right: -150px;
   animation: moveLeft 12s ease-in-out infinite;
