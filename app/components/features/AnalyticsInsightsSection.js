@@ -84,11 +84,11 @@ export default function AnalyticsInsightsSection() {
       <section className="py-20 lg:py-28" style={{ background: "linear-gradient(180deg, #F8F7FF 0%, #F4F3FE 100%)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
               Returns &amp; Payment{" "}
               <span className="text-violet-600">Automation</span>
             </h2>
-            <p className="mt-5 text-lg text-gray-500 leading-relaxed">
+            <p className="mt-5 text-md text-gray-500 leading-relaxed">
               Easily manage returns, failed deliveries, and COD payments with complete visibility across couriers.
               Automate reconciliation, reduce losses, and keep your finances accurate and stress-free.
             </p>
