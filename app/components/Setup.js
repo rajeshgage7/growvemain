@@ -42,7 +42,7 @@ export default function Setup() {
     transition={{ type: "spring", stiffness: 60, damping: 18 }}
     viewport={{ once: true, margin: "-100px" }}
   >
-    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-800 leading-tight">
+    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
       Fast and Effortless Setup
     </h2>
 
@@ -63,7 +63,7 @@ export default function Setup() {
           viewport={{ once: true }}
           className="flex items-center gap-3"
         >
-          <span className="flex-shrink-0 w-6 h-6 rounded-full bg-violet-600 flex items-center justify-center">
+          <span className="flex-shrink-0 w-6 h-6 rounded-full text-white bg-[#6C63FF] flex items-center justify-center">
             ✔
           </span>
           <span className="text-gray-700 text-sm font-medium">
@@ -75,7 +75,7 @@ export default function Setup() {
 
     <Link
       href="#demo"
-      className="mt-10 inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-sm font-bold text-white bg-violet-600 hover:bg-violet-700 transition-colors"
+      className="mt-10 inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-sm font-bold text-white bg-[#6C63FF] hover:bg-violet-700 transition-colors"
     >
       Try our free demo »
     </Link>

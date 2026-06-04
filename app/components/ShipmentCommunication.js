@@ -44,7 +44,7 @@ export default function ShipmentCommunication() {
           viewport={{ once: true }}
           className="flex items-center gap-3"
         >
-          <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#6C63FF] flex items-center justify-center">
+          <span className="flex-shrink-0 w-6 h-6 rounded-full text-white bg-[#6C63FF] flex items-center justify-center">
             ✔
           </span>
           <span className="text-gray-700 font-medium">{point}</span>
@@ -59,11 +59,11 @@ export default function ShipmentCommunication() {
       viewport={{ once: true }}
     >
       <Link
-        href="#demo"
-        className="mt-8 inline-flex items-center gap-2 px-7 py-3 rounded-full text-sm font-semibold text-white bg-[#6C63FF] hover:bg-violet-700 transition-colors"
-      >
-        Try our free demo
-      </Link>
+      href="#demo"
+      className="mt-10 inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-sm font-bold text-white bg-[#6C63FF] hover:bg-violet-700 transition-colors"
+    >
+      Try our free demo »
+    </Link>
     </motion.div>
   </motion.div>
 

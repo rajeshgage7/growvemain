@@ -62,7 +62,7 @@ export default function BudgetManagement() {
           viewport={{ once: true }}
           className="flex items-center gap-3"
         >
-          <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#6C63FF] flex items-center justify-center">
+          <span className="flex-shrink-0 w-6 h-6 rounded-full text-white bg-[#6C63FF] flex items-center justify-center">
             ✔
           </span>
           <span className="text-gray-700 text-base">{point}</span>

@@ -15,7 +15,7 @@ const integrations = [
 
 export default function Integrations() {
   return (
-    <section className="bg-violet-50 py-20 lg:py-28">
+    <section className=" py-20 lg:py-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Badge */}
         <div className="flex justify-center mb-5">
@@ -59,7 +59,7 @@ export default function Integrations() {
   {/* Center Content */}
 <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 mt-20">
 
-  <h5 className="text-sm sm:text-xl md:text-2xl lg:text-3xl text-gray-800 leading-snug">
+  <h5 className="text-sm sm:text-xl md:text-2xl lg:text-3xl text-gray-800 font-semibold leading-snug">
     +18 Smooth-running integrations
   </h5>
 
