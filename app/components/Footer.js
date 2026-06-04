@@ -52,7 +52,7 @@ export default function Footer() {
               Company
             </h3>
             <div className="space-y-4">
-              <p className="text-sm font-semibold text-gray-200">
+              <p className="text-sm font-bold text-gray-200">
                 Growve Retail &amp; Management Services Private Limited
               </p>
               <div className="space-y-2 text-sm text-gray-400">
@@ -62,7 +62,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                   </svg>
                   <span>
-                    Unit no. 404, Filix Tower, Lal Bahadur Shastri Marg,<br /> opposite Asian. Paints, Sonapur, Bhandup West,<br />
+                    Unit no. 502, Filix Tower, Lal Bahadur Shastri Marg,<br /> opposite Asian. Paints, Sonapur, Bhandup West,<br />
                     Mumbai, Maharashtra 400078
                   </span>
                 </div>
@@ -71,7 +71,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                   </svg>
                   <a href="mailto:hello@growve.in" className="hover:text-violet-400 transition-colors">
-                    team@growve.in
+                    admin@growve.in
                   </a>
                 </div>
               </div>
@@ -121,7 +121,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t border-white/5">
+      {/* <div className="border-t border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-gray-600">
             Made with care for the Indian commerce ecosystem
@@ -135,7 +135,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 }
